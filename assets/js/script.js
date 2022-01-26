@@ -10,6 +10,8 @@ let userPick
 
 let computerPicks
 
+let outcome
+
 buttonChoices.forEach(buttonChoice => buttonChoice.addEventListener('click', (e) =>{
     userPick=e.target.id
     playerPick.innerHTML = userPick
@@ -35,4 +37,35 @@ if (randomPick === 3) {
 }
 
 computerPick.innerHTML = computerPicks
+}
+
+
+function getOutcome () {
+    if (computerPick === userPick) {
+        outcome = 'Tie!'
+    }
+
+    if (computerPick === 'paper' && userPick === 'scissors') {
+        outcome = 'You Win!'
+    }
+
+    if (computerPick === 'rock' && userPick === 'paper') {
+        outcome = 'You Win!'
+    }
+
+    if (computerPick === 'scissors' && userPick === 'rock') {
+        outcome = 'You Win!'
+    }
+
+    if (computerPick === 'rock' && userPick === 'scissors') {
+        outcome = 'You Lose!'
+    }
+
+    if (computerPick === 'scissors' && userPick === 'paper') {
+        outcome = 'You Lose!'
+    }
+
+    if (computerPick === 'paper' && userPick === 'rock') {
+        outcome = 'You Lose!'
+    }
 }
