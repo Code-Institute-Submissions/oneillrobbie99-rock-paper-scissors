@@ -6,6 +6,7 @@ const outcomeDisplay = document.getElementById('outcome')
 
 const buttonChoices = document.querySelectorAll('button')
 
-possibleChoices.forEach(button => buttonChoices.addEventListener('click', () =>{
-
+let playerPick
+possibleChoices.forEach(button => buttonChoices.addEventListener('click', (e) =>{
+    playerPick=e.target.id
 }))
