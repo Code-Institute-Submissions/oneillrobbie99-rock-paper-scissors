@@ -11,3 +11,20 @@ h1 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+
+#buttons {
+    text-align: center;
+}
+
+#rock, #paper, #scissors {
+    margin: 1rem;
+    padding: 0.5rem;
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: #3E656B;
+    border: 10px solid;
+    width: 100px;
+    height: 100px;
+    font-size: 3.2rem;
+    margin: 0 30px;
+}
