@@ -4,5 +4,8 @@ const playerPick = document.getElementById('play-pick')
 
 const outcomeDisplay = document.getElementById('outcome')
 
-const buttonPicks = document.querySelectorAll('button')
+const buttonChoices = document.querySelectorAll('button')
 
+possibleChoices.forEach(button => buttonChoices.addEventListener('click', () =>{
+
+}))
