@@ -18,18 +18,21 @@ buttonChoices.forEach(buttonChoice => buttonChoice.addEventListener('click', (e)
 
 
 function randomComputerPick(){
-    const randomPick = Math.floor(Math.random() * buttonChoices.length)
+    const randomPick= Math.floor(Math.random() * 3)
     console.log(randomPick)
-}
 
-if (computerPicks === 1) {
+
+if (randomPick === 1) {
     computerPicks = 'paper'
 }
 
-if (computerPicks === 2) {
+if (randomPick === 2) {
     computerPicks = 'scissors'
 }
 
-if (computerPicks === 3) {
+if (randomPick === 3) {
     computerPicks = 'rock'
+}
+
+computerPick.innerHTML = computerPicks
 }
