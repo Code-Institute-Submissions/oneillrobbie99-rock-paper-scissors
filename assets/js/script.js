@@ -11,4 +11,10 @@ let userPick
 buttonChoices.forEach(buttonChoice => buttonChoice.addEventListener('click', (e) =>{
     userPick=e.target.id
     playerPick.innerHTML = userPick
+    randomComputerPick()
 }))
+
+
+function randomComputerPick(){
+    const randomPick = Math.random() * buttonChoices.length
+}
