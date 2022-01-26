@@ -16,5 +16,5 @@ buttonChoices.forEach(buttonChoice => buttonChoice.addEventListener('click', (e)
 
 
 function randomComputerPick(){
-    const randomPick = Math.random() * buttonChoices.length
+    const randomPick = Math.floor(Math.random() * buttonChoices.length)
 }
