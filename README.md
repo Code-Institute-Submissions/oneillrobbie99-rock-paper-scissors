@@ -30,5 +30,37 @@
   
   
   
+  <h4>Testing</h4>
+  
+  <p1>HTML - No errors shown through W3C Validator</p1>
+  <p1>CSS - No errors shown when passing through (Jigsaw) validator</p1>
+  <p1>JavaScript - JSHint founr there are 5 functions in this file. Function with the largest signature take 1 arguments, while the median is 0. Largest function has 15 statements in it, while the median is 4. The most complex function has a cyclomatic complexity value of 14 while the median is 1.</p1>
+  
+  <h4>Unfixed Bugs</h4>
+  
+  <p1>There are a few bug in this website. The game works fine on some rounds but others it comes up as undefined and the player pick won't show. I have looked over the code but due to running out of time in order to figure out where I've gone wrong I have been unable to fix the bug. I have also been unable to complete 'git pushes' while writing this as it keeps rejecting it suddenly and i dont't have time left to fix it.</p>
+  
+  <h4>Credits</h4>
+  
+  I had help with writing and laying out the readme.md section from the template from CI.
+  I also sourced from websites to help with my game and figuring out the logistics of the Javascript from: https://junilearning.com/blog/coding-projects/rock-paper-scissors-java-project/ and https://www.youtube.com/watch?v=DyqMglmrido.
+  
+  <h4>Media</h4>
+  
+  <p1>I have a different font which I sourced from Google Fonts.</p1>
+  <p1>I also have Icons from FontAwesome which make up the buttons in my project</p1>
+  <p1>I have no images in my project</p>
+  
+  <h4>Deployment</h4>
+  
+  <p1>My site was deployed by: </p1>
+  <p1>- Opening my GitHub repository and going to settings. </p1>
+  <p1>- Next I Scrolled to GitHub pages and opened the dedicatedd window.</p1>
+  <p1>- I then selected the main branch and was given my website link successfully.</p1>
+  
+  <p>This is the live link: https://oneillrobbie99.github.io/rock-paper-scissors/</p>
+  
+  
+  
 
 
